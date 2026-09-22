@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Jal Rakshak | Smart Water Purification & Monitoring</title>
-<meta name="description" content="Jal Rakshak — sensor-driven water monitoring and purification system by Team Hexora." />
+<meta name="description" content="Jal Rakshak — sensor-driven water monitoring and purification system by Team NeerKavanch." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -39,6 +39,7 @@ const sensors=[
  ['01','pH','7.1','pH',68],['02','TDS','210','ppm',42],['03','Turbidity','1.2','NTU',18],
  ['04','ORP','215','mV',58],['05','Flow rate','2.4','L/min',52],['06','Heavy metals','<0.01','mg/L',10]
 ];
+
 const stages=[['01','SENSE','Live water parameters'],['02','THINK','Rule-based decision'],['03','TREAT','Adaptive purification'],['04','VERIFY','Output validation']];
 
 function App(){
@@ -50,8 +51,8 @@ function App(){
   <nav className="nav"><a className="brand" href="#top">JAL <span>RAKSHAK</span></a><div className="nav-links"><a href="#problem">Problem</a><a href="#sense">Sense</a><a href="#flow">System</a><a href="#impact">Impact</a></div><div className="status"><i className="dot"/> SYSTEM ONLINE</div></nav>
   <main id="top">
    <section className="hero container">
-    <div>
-     <div className="kicker reveal">Team Hexora · SIH 2026</div>
+   <div>
+     <div className="kicker reveal">Team NeerKavanch · SIH 2026</div>
      <h1 className="reveal d1">Cleaner water.<br/><em>Smarter decisions.</em></h1>
      <p className="hero-copy reveal d2">A solar-powered, sensor-driven system that detects, treats and verifies water quality in one closed loop.</p>
      <div className="hero-actions reveal d3"><a className="btn primary" href="#flow">Explore the system →</a><a className="btn secondary" href="#sense">Live parameters</a></div>
@@ -99,9 +100,10 @@ function App(){
 
    <section id="impact"><div className="container"><div className="glass impact"><div className="impact-grid"><div><div className="kicker">06 · Why it matters</div><h2>One loop.<br/>One clearer outcome.</h2><p className="intro">Jal Rakshak is designed around continuous monitoring, response and verification — not a one-time test.</p></div><div className="impact-stat"><strong>6</strong><span>Sensing inputs</span></div><div className="impact-stat"><strong>4</strong><span>Treatment stages</span></div><div className="impact-stat"><strong>0</strong><span>Grid dependency target</span></div></div></div></div></section>
   </main>
-  <footer className="footer"><div className="container footer-inner"><div><strong>Jal Rakshak</strong> · Team Hexora</div><div>Smart India Hackathon 2026 · Government of Jharkhand problem statement</div></div></footer>
+  <footer className="footer"><div className="container footer-inner"><div><strong>Jal Rakshak</strong> · Team NeerKavanch</div><div>Smart India Hackathon 2026 · Government of Jharkhand problem statement</div></div></footer>
  </>
 }
+
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
 </body>
